@@ -21,12 +21,12 @@
 <body>
     
     <header class="header">
-        <a href="index.html" class="logo">Ian Hubert.</a>
+        <a href="index.php" class="logo">Ian Hubert.</a>
         <nav class="navbar">
-            <a href="index.html" class="active">Home</a>
-            <a href="aboutme.html">About Me</a>
-            <a href="projects.html">Projects</a>
-            <a href="contact.html">Contact</a>
+            <a href="index.php" class="active">Home</a>
+            <a href="aboutme.php">About Me</a>
+            <a href="projects.php">Projects</a>
+            <a href="contact.php">Contact</a>
         </nav>
     </header>
 
@@ -37,7 +37,7 @@
             <h3><span id="typed-text3"></span></h3>
             <p style="font-size: 25px;"><span id="typed-text4"></span></p>
             <div class="btn-box" id="contact-button" style="display: none;">
-                <a href="IAN OGONJO - CV.docx">Download CV</a>
+                <a href="IAN OGONJO - CV.pdf">Download CV</a>
                 <a href="contact.html">Contact Me</a>
             </div>
         </div>
@@ -57,7 +57,7 @@
         const text3 = "Web Developer & Data Analyst.";
         const text4 = "Junior web developer and data analyst adept at crafting user-friendly websites. \
             Skilled in HTML, CSS, JavaScript, and data analysis tools. Committed to delivering quality solutions and driving insights for business success.";
-        const delay = 100; 
+        const delay = 30; 
 
         let index1 = 0;
         let index2 = 0;

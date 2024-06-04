@@ -23,16 +23,16 @@
 <header class="header">
     <a href="index.html" class="logo">Ian Hubert.</a>
     <nav class="navbar">
-        <a href="index.html">Home</a>
-        <a href="aboutme.html">About Me</a>
-        <a href="projects.html">Projects</a>
-        <a href="contact.html" class="active">Contact</a>
+        <a href="index.php">Home</a>
+        <a href="aboutme.php">About Me</a>
+        <a href="projects.php">Projects</a>
+        <a href="contact.php" class="active">Contact</a>
     </nav>
 </header>
 
 <section class="form">
     <div class="form-content">
-        <form action="submit.php" method="POST">
+        <form action="form.php" method="POST" name="contact">
             <h1>CONTACT ME 🙂</h1>
             <label for="name">Your Name:</label><br>
             <input type="text" id="name" name="name" required><br>
@@ -44,7 +44,7 @@
             <textarea id="message" name="message" rows="4" required></textarea><br>
 
             <div class="btn-form">
-                <a href="#">Submit</a>
+                <input type="submit" value="Submit">
             </div>
         </form>
     </div>
@@ -57,5 +57,6 @@
 <footer>
     
 </footer>
+
 </body>
 </html>

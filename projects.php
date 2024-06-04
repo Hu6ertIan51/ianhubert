@@ -23,10 +23,10 @@
 <header class="header">
     <a href="index.html" class="logo">Ian Hubert.</a>
     <nav class="navbar">
-        <a href="index.html">Home</a>
-        <a href="aboutme.html">About Me</a>
-        <a href="projects.html" class="active">Projects</a>
-        <a href="contact.html">Contact</a>
+        <a href="index.php">Home</a>
+        <a href="aboutme.php">About Me</a>
+        <a href="projects.php" class="active">Projects</a>
+        <a href="contact.php">Contact</a>
     </nav>
 </header>
 

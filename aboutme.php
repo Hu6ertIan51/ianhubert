@@ -21,12 +21,12 @@
 <body>
     
 <header class="header">
-    <a href="index.html" class="logo">Ian Hubert.</a>
+    <a href="index.php" class="logo">Ian Hubert.</a>
     <nav class="navbar">
-        <a href="index.html">Home</a>
-        <a href="aboutme.html" class="active">About Me</a>
-        <a href="projects.html">Projects</a>
-        <a href="contact.html">Contact</a>
+        <a href="index.php">Home</a>
+        <a href="aboutme.php" class="active">About Me</a>
+        <a href="projects.php">Projects</a>
+        <a href="contact.php">Contact</a>
     </nav>
 </header>
 
