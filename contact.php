@@ -33,7 +33,7 @@
 <section class="form">
     <div class="form-content">
         <form action="form.php" method="POST" name="contact">
-            <h1>CONTACT ME 🙂</h1>
+            <h1>CONTACT M 🙂</h1>
             <label for="name">Your Name:</label><br>
             <input type="text" id="name" name="name" required><br>
 
